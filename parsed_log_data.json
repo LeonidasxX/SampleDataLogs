@@ -1,0 +1,443 @@
+[
+    {
+        "events": [
+            {
+                "event": "PET Scan Initiated",
+                "date": "2024-02-14",
+                "time": "10:00:30",
+                "details": null
+            },
+            {
+                "event": "Patient Info",
+                "date": "2024-02-14",
+                "time": "10:01:00",
+                "details": {
+                    "id": "789012",
+                    "name": "Jane Smith",
+                    "age": "38"
+                }
+            },
+            {
+                "event": "Scan Selected",
+                "date": "2024-02-14",
+                "time": "10:02:00",
+                "details": {}
+            },
+            {
+                "event": "Patient Positioning",
+                "date": "2024-02-14",
+                "time": "10:03:00",
+                "details": {
+                    "start_loc": "-15.3",
+                    "end_loc": "5.7"
+                }
+            },
+            {
+                "event": "Scanner Movement Start",
+                "date": "2024-02-14",
+                "time": "10:03:00",
+                "details": {
+                    "scanner_start_loc": "0.0"
+                }
+            },
+            {
+                "event": "Radiotracer Monitoring",
+                "date": "2024-02-14",
+                "time": "10:10:00",
+                "details": {
+                    "status": "Stable distribution observed"
+                }
+            },
+            {
+                "event": "Scanner Movement Complete",
+                "date": "2024-02-14",
+                "time": "10:22:00",
+                "details": {
+                    "scanner_end_loc": "32.1"
+                }
+            },
+            {
+                "event": "PET Scan Completed",
+                "date": "2024-02-14",
+                "time": "10:22:15",
+                "details": null
+            }
+        ],
+        "error": [],
+        "start_time": "2024-02-14 10:00:30",
+        "end_time": "2024-02-14 10:22:15"
+    },
+    {
+        "events": [
+            {
+                "event": "PET Scan Initiated",
+                "date": "2024-05-17",
+                "time": "14:30:30",
+                "details": null
+            },
+            {
+                "event": "Patient Info",
+                "date": "2024-05-17",
+                "time": "14:31:00",
+                "details": {
+                    "id": "345678",
+                    "name": "Michael Lee",
+                    "age": "65"
+                }
+            },
+            {
+                "event": "Patient Positioning",
+                "date": "2024-05-17",
+                "time": "14:33:00",
+                "details": {
+                    "start_loc": "12.4",
+                    "end_loc": "38.9"
+                }
+            },
+            {
+                "event": "Scanner Movement Start",
+                "date": "2024-05-17",
+                "time": "14:33:00",
+                "details": {
+                    "scanner_start_loc": "0.0"
+                }
+            },
+            {
+                "event": "Radiotracer Monitoring",
+                "date": "2024-05-17",
+                "time": "14:45:00",
+                "details": {
+                    "status": "Inconsistent uptake in upper region, flagged for review"
+                }
+            },
+            {
+                "event": "Scanner Movement Complete",
+                "date": "2024-05-17",
+                "time": "14:50:00",
+                "details": {
+                    "scanner_end_loc": "47.2"
+                }
+            },
+            {
+                "event": "PET Scan Completed",
+                "date": "2024-05-17",
+                "time": "14:50:15",
+                "details": null
+            }
+        ],
+        "error": [],
+        "start_time": "2024-05-17 14:30:30",
+        "end_time": "2024-05-17 14:50:15"
+    },
+    {
+        "events": [
+            {
+                "event": "PET Scan Initiated",
+                "date": "2024-04-02",
+                "time": "09:00:30",
+                "details": null
+            },
+            {
+                "event": "Patient Info",
+                "date": "2024-04-02",
+                "time": "09:01:00",
+                "details": {
+                    "id": "901234",
+                    "name": "Emily Garcia",
+                    "age": "22"
+                }
+            },
+            {
+                "event": "Patient Positioning",
+                "date": "2024-04-02",
+                "time": "09:03:00",
+                "details": {
+                    "start_loc": "-5.0",
+                    "end_loc": "5.0"
+                }
+            },
+            {
+                "event": "Scanner Movement Start",
+                "date": "2024-04-02",
+                "time": "09:03:00",
+                "details": {
+                    "scanner_start_loc": "0.0"
+                }
+            },
+            {
+                "event": "Radiotracer Monitoring",
+                "date": "2024-04-02",
+                "time": "09:12:00",
+                "details": {
+                    "status": "Normal distribution observed"
+                }
+            },
+            {
+                "event": "Scanner Movement Complete",
+                "date": "2024-04-02",
+                "time": "09:18:00",
+                "details": {
+                    "scanner_end_loc": "10.0"
+                }
+            },
+            {
+                "event": "PET Scan Completed",
+                "date": "2024-04-02",
+                "time": "09:18:15",
+                "details": null
+            }
+        ],
+        "error": [],
+        "start_time": "2024-04-02 09:00:30",
+        "end_time": "2024-04-02 09:18:15"
+    },
+    {
+        "events": [
+            {
+                "event": "PET Scan Initiated",
+                "date": "2024-01-25",
+                "time": "16:00:30",
+                "details": null
+            },
+            {
+                "event": "Patient Info",
+                "date": "2024-01-25",
+                "time": "16:01:00",
+                "details": {
+                    "id": "567890",
+                    "name": "David Kim",
+                    "age": "58"
+                }
+            },
+            {
+                "event": "Scan Selected",
+                "date": "2024-01-25",
+                "time": "16:02:00",
+                "details": {
+                    "side": "Both Sides"
+                }
+            },
+            {
+                "event": "Patient Positioning",
+                "date": "2024-01-25",
+                "time": "16:04:00",
+                "details": {
+                    "start_loc": "-28.7",
+                    "end_loc": "0.0"
+                }
+            },
+            {
+                "event": "Scanner Movement Start",
+                "date": "2024-01-25",
+                "time": "16:07:00",
+                "details": {
+                    "scanner_start_loc": "0.0"
+                }
+            },
+            {
+                "event": "Radiotracer Monitoring",
+                "date": "2024-01-25",
+                "time": "16:15:00",
+                "details": {
+                    "status": "Stable distribution observed - Left Side"
+                }
+            },
+            {
+                "event": "Scanner Movement Complete",
+                "date": "2024-01-25",
+                "time": "16:18:00",
+                "details": {
+                    "scanner_end_loc": "28.7"
+                }
+            },
+            {
+                "event": "Radiotracer Monitoring",
+                "date": "2024-01-25",
+                "time": "16:30:00",
+                "details": {
+                    "status": "Stable distribution observed - Right Side"
+                }
+            },
+            {
+                "event": "Scanner Movement Complete",
+                "date": "2024-01-25",
+                "time": "16:33:00",
+                "details": {
+                    "scanner_end_loc": "0.0"
+                }
+            },
+            {
+                "event": "PET Scan Completed",
+                "date": "2024-01-25",
+                "time": "16:33:15",
+                "details": null
+            }
+        ],
+        "error": [],
+        "start_time": "2024-01-25 16:00:30",
+        "end_time": "2024-01-25 16:33:15"
+    },
+    {
+        "events": [
+            {
+                "event": "PET Scan Initiated",
+                "date": "2024-06-14",
+                "time": "15:00:30",
+                "details": null
+            },
+            {
+                "event": "Patient Info",
+                "date": "2024-06-14",
+                "time": "15:01:00",
+                "details": {
+                    "id": "123456",
+                    "name": "John Doe",
+                    "age": "42"
+                }
+            },
+            {
+                "event": "Scan Selected",
+                "date": "2024-06-14",
+                "time": "15:02:00",
+                "details": {}
+            },
+            {
+                "event": "Patient Positioning",
+                "date": "2024-06-14",
+                "time": "15:03:00",
+                "details": {
+                    "start_loc": "-18.2",
+                    "end_loc": "7.5"
+                }
+            },
+            {
+                "event": "Scanner Movement Start",
+                "date": "2024-06-14",
+                "time": "15:03:00",
+                "details": {
+                    "scanner_start_loc": "0.0"
+                }
+            },
+            {
+                "event": "Scanner Movement Resumed",
+                "date": "2024-06-14",
+                "time": "15:25:00",
+                "details": {
+                    "prev_position": "12.7"
+                }
+            },
+            {
+                "event": "Radiotracer Monitoring",
+                "date": "2024-06-14",
+                "time": "15:35:00",
+                "details": {
+                    "status": "Stable distribution observed"
+                }
+            },
+            {
+                "event": "Scanner Movement Complete",
+                "date": "2024-06-14",
+                "time": "15:47:00",
+                "details": {
+                    "scanner_end_loc": "35.4"
+                }
+            },
+            {
+                "event": "PET Scan Completed",
+                "date": "2024-06-14",
+                "time": "15:47:15",
+                "details": "Incomplete due to scanner halt"
+            }
+        ],
+        "error": [
+            {
+                "date": "2024-06-14",
+                "time": "15:10:00",
+                "message": "Unexpected scanner halt at position 12.7 (relative to scanner bed)"
+            }
+        ],
+        "start_time": "2024-06-14 15:00:30",
+        "end_time": "2024-06-14 15:47:15"
+    },
+    {
+        "events": [
+            {
+                "event": "PET Scan Initiated",
+                "date": "2024-03-21",
+                "time": "08:30:30",
+                "details": null
+            },
+            {
+                "event": "Patient Info",
+                "date": "2024-03-21",
+                "time": "08:31:00",
+                "details": {
+                    "id": "345678",
+                    "name": "Michael Lee",
+                    "age": "65"
+                }
+            },
+            {
+                "event": "Patient Positioning",
+                "date": "2024-03-21",
+                "time": "08:34:00",
+                "details": {
+                    "start_loc": "15.3",
+                    "end_loc": "42.1"
+                }
+            },
+            {
+                "event": "Scanner Movement Start",
+                "date": "2024-03-21",
+                "time": "08:34:00",
+                "details": {
+                    "scanner_start_loc": "0.0"
+                }
+            },
+            {
+                "event": "Scanner Movement Start",
+                "date": "2024-05-10",
+                "time": "12:04:00",
+                "details": {
+                    "scanner_start_loc": "0.0"
+                }
+            },
+            {
+                "event": "Radiotracer Monitoring",
+                "date": "2024-05-10",
+                "time": "12:22:00",
+                "details": {
+                    "status": "Inconsistent distribution due to patient motion"
+                }
+            },
+            {
+                "event": "Scanner Movement Complete",
+                "date": "2024-05-10",
+                "time": "12:27:00",
+                "details": {
+                    "scanner_end_loc": "7.6"
+                }
+            },
+            {
+                "event": "PET Scan Completed",
+                "date": "2024-05-10",
+                "time": "12:27:15",
+                "details": "May require rescan due to motion artifacts"
+            }
+        ],
+        "error": [
+            {
+                "date": "2024-03-21",
+                "time": "08:40:00",
+                "message": "Radiotracer injection failed - Possible vein occlusion"
+            },
+            {
+                "date": "2024-05-10",
+                "time": "12:10:00",
+                "message": "Excessive patient motion detected during scan"
+            }
+        ],
+        "start_time": "2024-03-21 08:30:30",
+        "end_time": "2024-05-10 12:27:15"
+    }
+]
