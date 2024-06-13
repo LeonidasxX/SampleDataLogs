@@ -2,16 +2,16 @@
     {
         "events": [
             {
-                "event": "User Login",
-                "date": "2024-02-14",
-                "time": "10:00:00",
-                "details": "technician_007"
-            },
-            {
                 "event": "PET Scan Initiated",
                 "date": "2024-02-14",
                 "time": "10:00:30",
                 "details": null
+            },
+            {
+                "event": "User Login",
+                "date": "2024-02-14",
+                "time": "10:00:00",
+                "details": "technician_007"
             },
             {
                 "event": "Patient Info",
