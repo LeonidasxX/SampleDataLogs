@@ -1,0 +1,76 @@
+[
+    {
+        "events": [
+            {
+                "event": "User Login",
+                "date": "2024-02-14",
+                "time": "10:00:00",
+                "details": "technician_007"
+            },
+            {
+                "event": "PET Scan Initiated",
+                "date": "2024-02-14",
+                "time": "10:00:30",
+                "details": null
+            },
+            {
+                "event": "Patient Info",
+                "date": "2024-02-14",
+                "time": "10:01:00",
+                "details": {
+                    "id": "789012",
+                    "name": "Jane Smith",
+                    "age": "38"
+                }
+            },
+            {
+                "event": "Scan Selected",
+                "date": "2024-02-14",
+                "time": "10:02:00",
+                "details": {}
+            },
+            {
+                "event": "Patient Positioning",
+                "date": "2024-02-14",
+                "time": "10:03:00",
+                "details": {
+                    "start_loc": "-15.3",
+                    "end_loc": "5.7"
+                }
+            },
+            {
+                "event": "Scanner Movement Start",
+                "date": "2024-02-14",
+                "time": "10:03:00",
+                "details": {
+                    "scanner_start_loc": "0.0"
+                }
+            },
+            {
+                "event": "Radiotracer Monitoring",
+                "date": "2024-02-14",
+                "time": "10:10:00",
+                "details": {
+                    "status": "Stable distribution observed"
+                }
+            },
+            {
+                "event": "Scanner Movement Complete",
+                "date": "2024-02-14",
+                "time": "10:22:00",
+                "details": {
+                    "scanner_end_loc": "32.1"
+                }
+            },
+            {
+                "event": "PET Scan Completed",
+                "date": "2024-02-14",
+                "time": "10:22:15",
+                "details": null
+            }
+        ],
+        "error": [],
+        "start_time": "2024-02-14 10:00:30",
+        "end_time": "2024-02-14 10:22:15"
+    }
+]
