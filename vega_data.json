@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "parent": "",
+    "name": "PET Scan Process"
+  },
+  {
+    "id": "2",
+    "parent": "1",
+    "name": "Patient: Jane Smith"
+  },
+  {
+    "id": "3",
+    "parent": "2",
+    "name": "User Login at 2024-02-14 10:00:00, Details: technician_007"
+  },
+  {
+    "id": "4",
+    "parent": "2",
+    "name": "PET Scan Initiated at 2024-02-14 10:00:30"
+  },
+  {
+    "id": "5",
+    "parent": "2",
+    "name": "Patient Info at 2024-02-14 10:01:00, Details: id: 789012, name: Jane Smith, age: 38"
+  },
+  {
+    "id": "6",
+    "parent": "2",
+    "name": "Scan Selected at 2024-02-14 10:02:00"
+  },
+  {
+    "id": "7",
+    "parent": "2",
+    "name": "Patient Positioning at 2024-02-14 10:03:00, Details: start_loc: -15.3, end_loc: 5.7"
+  },
+  {
+    "id": "8",
+    "parent": "2",
+    "name": "Scanner Movement Start at 2024-02-14 10:03:00, Details: scanner_start_loc: 0.0"
+  },
+  {
+    "id": "9",
+    "parent": "2",
+    "name": "Radiotracer Monitoring at 2024-02-14 10:10:00, Details: status: Stable distribution observed"
+  },
+  {
+    "id": "10",
+    "parent": "2",
+    "name": "Scanner Movement Complete at 2024-02-14 10:22:00, Details: scanner_end_loc: 32.1"
+  },
+  {
+    "id": "11",
+    "parent": "2",
+    "name": "PET Scan Completed at 2024-02-14 10:22:15"
+  }
+]
